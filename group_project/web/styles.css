@@ -1,8 +1,8 @@
 :root {
     --main-color: #FFFFFF;
     --secondary-color: #EBD3A4;
-    --secondary-gradient1: #E1AA3E;
-    --secondary-gradient2: #E0CEB2BF;
+    --secondary-gradient2: #E1B76A;
+    --secondary-gradient1: #E2D1B7;
 }
 
 body {
@@ -17,21 +17,26 @@ a {
     font-weight: bold;
 }
 
+img {
+    max-width: 100%;
+}   
+
 .content {
     margin: 0px auto ;
-    max-width: 1200px;
+    max-width: 1100px;
 }
 
 header {
     background-color: var(--secondary-color);
     height: 119px;
+    margin-bottom: 100px;
 }
 
 #header-container { 
     display: flex;
     padding-top: 40px;
     font-size: 24px;
-    
+
     strong {
         font-weight: 900;
     }
@@ -41,4 +46,95 @@ nav {
     display: flex;
     gap: 50px;
     margin-left: auto;
+}
+
+strong {
+    font-weight: 900;
+}
+
+footer {
+    height: 250px;
+    padding-top: 20px;
+    background-image: linear-gradient(to right,var(--secondary-gradient1),var(--secondary-gradient2));
+    font-size: 24px;
+}
+
+#footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    background-color: var(--secondary-color);
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: large;
+}
+
+#started {
+    position: absolute;
+    top: 85%;
+    left: 17.5%;
+
+    button {
+        width: 255px;
+        height: 87px;
+        border-radius: 50px;
+    }
+}
+
+.section {
+    padding-bottom: 200px;
+}
+
+#small-text {
+    font-weight: 700;
+}
+
+.display {
+    display: flex;
+    
+    img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+#contact-links {
+    display: flex;
+    background-color: #E0CEB2BF;
+    padding: 15px 10px;
+    border: rgba(0,0,0,0.2) solid 4px;
+    a{
+        margin: 0px auto;
+    }
+    img {
+        height: 70px;
+        width: auto;
+    }
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+#title {
+    font-size: 64px;
+    font-weight: 1000;
+    margin: 0px;
+}
+
+#description {
+    font-size: 24px;
+    font-weight: 900;
 }
