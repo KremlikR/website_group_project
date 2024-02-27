@@ -1,0 +1,44 @@
+:root {
+    --main-color: #FFFFFF;
+    --secondary-color: #EBD3A4;
+    --secondary-gradient1: #E1AA3E;
+    --secondary-gradient2: #E0CEB2BF;
+}
+
+body {
+    margin: 0;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    margin: 0px auto ;
+    max-width: 1200px;
+}
+
+header {
+    background-color: var(--secondary-color);
+    height: 119px;
+}
+
+#header-container { 
+    display: flex;
+    padding-top: 40px;
+    font-size: 24px;
+    
+    strong {
+        font-weight: 900;
+    }
+}   
+
+nav {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
