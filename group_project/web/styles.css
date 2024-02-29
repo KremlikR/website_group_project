@@ -180,6 +180,9 @@ button {
         a { 
             width: 21%;
         }
+        .project img{
+            display: none   ;
+        }
     }
 
     .display {
@@ -210,5 +213,9 @@ button {
     #pencilmobile {
         display: block;
         width: 100%;
+    }
+    #artists-container-swap {
+        flex-direction: column;
+       
     }
 }
